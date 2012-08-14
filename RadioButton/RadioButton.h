@@ -17,7 +17,7 @@
     NSUInteger _index;
     UIButton *_button;
 }
-@property(nonatomic,retain)NSString *groupId;
+@property(nonatomic,strong)NSString *groupId;
 @property(nonatomic,assign)NSUInteger index;
 
 -(id)initWithGroupId:(NSString*)groupId index:(NSUInteger)index;

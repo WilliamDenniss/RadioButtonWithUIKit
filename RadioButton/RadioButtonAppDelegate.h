@@ -14,8 +14,8 @@
 
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, strong) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet RadioButtonViewController *viewController;
+@property (nonatomic, strong) IBOutlet RadioButtonViewController *viewController;
 
 @end
