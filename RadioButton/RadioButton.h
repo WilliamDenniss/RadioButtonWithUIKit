@@ -19,6 +19,7 @@
 }
 @property(nonatomic,strong)NSString *groupId;
 @property(nonatomic,assign)NSUInteger index;
+@property(nonatomic)BOOL selected;
 
 -(id)initWithGroupId:(NSString*)groupId index:(NSUInteger)index;
 +(void)addObserverForGroupId:(NSString*)groupId observer:(id)observer;

@@ -130,4 +130,15 @@ static NSMutableDictionary *rb_observers=nil;
 }
 
 
+#pragma mark - RadioButton init
+
+-(BOOL)selected {
+    return _button.selected;
+}
+
+-(void)setSelected:(BOOL)selected {
+    if (selected) [self handleButtonTap:NULL];
+}
+
+
 @end

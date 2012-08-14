@@ -63,6 +63,7 @@
     [container addSubview:label3];
     
     [RadioButton addObserverForGroupId:@"first group" observer:self];
+    rb3.selected = YES;
 
     [super viewDidLoad];
 }
